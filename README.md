@@ -42,3 +42,8 @@ class RyanWalters(Human):
             'Programming', 'Photography', 'Anime', 'Videogames'
         ]
 ```
+<!-- GitHub Statistic Cards -->
+<div white-space="nowrap">
+    <img align="left" src="https://github-readme-stats.vercel.app/api?username=Xevion&show_icons=true">
+    <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xevion&layout=compact">
+</div>
