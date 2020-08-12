@@ -1,6 +1,6 @@
 ```python
 from life.species import Human
-from skills import python, javascript, csharp, other
+from skills import python, javascript, csharp, html, css, other
 from datetime import date
 from random import choices
 from os import getenv
@@ -28,6 +28,9 @@ class RyanWalters(Human):
             ],
             'csharp': [
                 csharp.UnityEngine, csharp.HLSLShader
+            ],
+            'html&css': [
+                html.Bootstrap4, css.SCSS, css.CSS
             ],
             'other': [
                 other.DevOps, other.Photography
