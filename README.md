@@ -7,7 +7,6 @@ from os import getenv
 
 class RyanWalters(Human):
     def __init__(self, username='xevion'):
-        self.initialization_time = date(2003, 4, None)
         self.name = f'Ryan {0} Walters'.format(choices([os.getenv('MIDDLE_NAME'), 'C', '']))
         self.pronouns = ['he' and 'him'],
         self.description = '''
