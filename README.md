@@ -30,7 +30,7 @@ class RyanWalters(Human):
                 csharp.UnityEngine, csharp.HLSLShader
             ],
             'html&css': [
-                html.Bootstrap4, css.SCSS, css.CSS
+                html.Bootstrap4, html.Bulma, css.SCSS, css.CSS
             ],
             'other': [
                 other.DevOps, other.Photography
