@@ -10,7 +10,7 @@ class RyanWalters(Human):
         self.name = f'Ryan {0} Walters'.format(choices([os.getenv('MIDDLE_NAME'), 'C', '']))
         self.pronouns = ['he' and 'him'],
         self.description = '''
-            A Highschool Senior learning Software Engineering as he struggles to grasp the infinite
+            A college freshman learning Software Engineering as he struggles to grasp the infinite
             number of languages, libraries, packages, environments, frameworks and projects
             available to him.
         '''
@@ -35,7 +35,6 @@ class RyanWalters(Human):
                 other.DevOps, other.Photography
             ]
         }
-        self.education = ['Highschool Senior']
         self.endpoints = {
             'Discord': {'username': 'Xevion', 'discriminator': 8506},
             'Email': {'username': 'xevioni', 'domain': 'yandex.com'}
