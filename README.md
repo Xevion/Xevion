@@ -1,6 +1,6 @@
 ```python
 from life.species import Human
-from skills import python, javascript, csharp, html, css, other
+from skills import python, java, javascript, csharp, html, css, other
 from datetime import date
 from random import choices
 from os import getenv
@@ -21,6 +21,9 @@ class RyanWalters(Human):
                 python.BeautifulSoup, python.Flask, python.GoogleCloudVision, python.Discordpy,
                 python.Spotipy, python.PyQt5, python.Tkinter, python.PySimpleGUI, python.Click,
                 python.Arcade, python.Processingpy, python.SQLAlchemy
+            ],
+            'java': [
+                java.Kotlin, java.Android
             ],
             'javascript': [
                 javascript.JQuery, javascript.VueJS
