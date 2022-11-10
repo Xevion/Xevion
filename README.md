@@ -5,12 +5,13 @@ from datetime import date
 from random import choices
 from os import getenv
 
+// This flavor text is currently outdated. I'll update it when I can. In the mean time, see my personal site: https://xevion.dev
 class RyanWalters(Human):
     def __init__(self, username='xevion'):
         self.name = f'Ryan {0} Walters'.format(choices([os.getenv('MIDDLE_NAME'), 'C', '']))
         self.pronouns = ['he' and 'him'],
         self.description = '''
-            A college freshman learning Software Engineering as he struggles to grasp the infinite
+            A college sophomore learning Software Engineering as he struggles to grasp the infinite
             number of languages, libraries, packages, environments, frameworks and projects
             available to him.
         '''
