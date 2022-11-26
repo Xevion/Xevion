@@ -28,13 +28,13 @@ class RyanWalters(Human):
                 java.Kotlin, java.Android
             ],
             'javascript': [
-                javascript.JQuery, javascript.VueJS
+                javascript.Typescript, javascript.React, javascript.NextJS javascript.JQuery, javascript.VueJS, javascript.Webpack
             ],
             'csharp': [
-                csharp.UnityEngine, csharp.HLSLShader
+                csharp.UnityEngine, csharp.HLSLShader, csharp.Xamarin, csharp.XamarinForms, csharp.ASPNET
             ],
             'html&css': [
-                html.Bootstrap4, html.Bulma, css.SCSS, css.CSS
+                html.Bootstrap4, html.Bulma, css.SCSS, css.CSS, css.Tailwind, html.Liquid
             ],
             'other': [
                 other.DevOps, other.Photography
