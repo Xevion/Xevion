@@ -1,3 +1,12 @@
+<p align="center">
+  <samp>
+    <a href="https://xevion.dev">me</a> .
+    <a href="https://v2.xevion.dev">blog</a> .
+    <a href="https://xevion.dev/projects">projects</a> .
+    <a href="https://status.xevion.dev">status</a>
+  </samp>
+</p>
+
 ```python
 from life.species import Human
 from skills import python, java, javascript, csharp, html, css, other
