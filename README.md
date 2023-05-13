@@ -11,7 +11,7 @@ class RyanWalters(Human):
         self.pronouns = ['he' and 'him'],
         self.description = '''
             A junior full-stack software developer working their way through the world.
-            I like demonstrating attention to detail, presenting my projects elegantly, and building things to be robust and resilient.
+            With an attention to detail, I enjoy building projects that are elegant, robust, and resilient.
             While I specialize in Web Development, my skills reach broadly, and there's nothing I can't learn.
         '''
         self.recent_projects = [
