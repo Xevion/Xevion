@@ -5,46 +5,22 @@ from datetime import date
 from random import choices
 from os import getenv
 
-# This flavor text is currently outdated. I'll update it when I can.
-# In the mean time, see my personal site: https://xevion.dev
 class RyanWalters(Human):
     def __init__(self, username='xevion'):
         self.name = f'Ryan {0} Walters'.format(choices([os.getenv('MIDDLE_NAME'), 'C', '']))
         self.pronouns = ['he' and 'him'],
         self.description = '''
-            A college sophomore learning Software Engineering as he struggles to grasp the infinite
-            number of languages, libraries, packages, environments, frameworks and projects
-            available to him.
+            A junior full-stack software developer working their way through the world.
+            I like demonstrating attention to detail, presenting my projects elegantly, and building things to be robust and resilient.
+            While I specialize in Web Development, my skills reach broadly, and there's nothing I can't learn.
         '''
-        self.aliases = ['Xevion', 'Xevioni']
-        self.aliases.extend(map(lambda alias: alias.lower(), (alias for alias in self.aliases)))
-        self.skills = {
-            'python': [
-                python.BeautifulSoup, python.Flask, python.GoogleCloudVision, python.Discordpy,
-                python.Spotipy, python.PyQt5, python.Tkinter, python.PySimpleGUI, python.Click,
-                python.Arcade, python.Processingpy, python.SQLAlchemy
-            ],
-            'java': [
-                java.Kotlin, java.Android
-            ],
-            'javascript': [
-                javascript.Typescript, javascript.React, javascript.NextJS javascript.JQuery, javascript.VueJS, javascript.Webpack
-            ],
-            'csharp': [
-                csharp.UnityEngine, csharp.HLSLShader, csharp.Xamarin, csharp.XamarinForms, csharp.ASPNET
-            ],
-            'html&css': [
-                html.Bootstrap4, html.Bulma, css.SCSS, css.CSS, css.Tailwind, html.Liquid
-            ],
-            'other': [
-                other.DevOps, other.Photography
-            ]
-        }
-        self.endpoints = {
-            'Discord': {'username': 'Xevion', 'discriminator': 8506},
-            'Email': {'username': 'xevioni', 'domain': 'yandex.com'}
-        }
-        self.hobbies = [
-            'Programming', 'Photography', 'Anime', 'Videogames'
+        self.recent_projects = [
+            "https://github.com/Xevion/v6-place",
+            "https://github.com/acmutsa/Portal",
+            "https://github.com/Xevion/grain"
         ]
+        self.endpoints = {
+            "discord": {'username': 'Xevion', 'discriminator': 8506},
+            "email": "xevion@xevion.dev"
+        }
 ```
