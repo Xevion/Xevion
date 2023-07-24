@@ -29,7 +29,7 @@ class RyanWalters(Human):
             "https://github.com/Xevion/grain"
         ]
         self.endpoints = {
-            "discord": {'username': 'Xevion', 'discriminator': 8506},
+            "discord": ".xevion",
             "email": "xevion@xevion.dev"
         }
 ```
