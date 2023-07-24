@@ -16,7 +16,7 @@ from os import getenv
 
 class RyanWalters(Human):
     def __init__(self, username='xevion'):
-        self.name = f'Ryan {0} Walters'.format(choices([os.getenv('MIDDLE_NAME'), 'C', '']))
+        self.name = f'Ryan {0} Walters'.format(choices([getenv('MIDDLE_NAME'), 'C', '']))
         self.pronouns = ['he' and 'him'],
         self.description = '''
             A junior full-stack software developer working their way through the world.
