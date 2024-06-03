@@ -1,7 +1,7 @@
 <p align="center">
   <samp>
     <a href="https://xevion.dev">me</a> .
-    <a href="https://v2.xevion.dev">blog</a> .
+    <a href="https://undefined.behavio.rs">blog</a> .
     <a href="https://xevion.dev/projects">projects</a> .
     <a href="https://status.xevion.dev">status</a>
   </samp>
@@ -17,15 +17,15 @@ from os import getenv
 class RyanWalters(Human):
     def __init__(self, username='xevion'):
         self.name = f'Ryan {0} Walters'.format(choices([getenv('MIDDLE_NAME'), 'C', '']))
-        self.pronouns = ['he' and 'him'],
+        self.pronouns = ['he' and 'they'],
         self.description = '''
-            A junior full-stack software developer working their way through the world.
-            With an attention to detail, I enjoy building projects that are elegant, robust, and resilient.
-            While I specialize in Web Development, my skills reach broadly, and there's nothing I can't learn.
+            A full-stack software engineer navigating their way through the industry.
+            With an attention to detail, I enjoy building projects that are elegant, robust, and impactful.
+            Although I specialize in Web Development, my skill set is extensive, and I'm confident in my ability to learn anything.
         '''
         self.recent_projects = [
-            "https://github.com/Xevion/v6-place",
             "https://github.com/acmutsa/Portal",
+            "https://github.com/Xevion/rdap",
             "https://github.com/Xevion/grain"
         ]
         self.endpoints = {
