@@ -24,7 +24,7 @@ use Life::Interests::Gaming::Simulation::{Factorio, RimWorld};
 impl Human {
     fn me(username: &str) -> Human {
         let middle_name = vec![env::var("MIDDLE_NAME").unwrap_or_default().as_str(), "C", ""].choose(&mut rand::thread_rng()).unwrap_or(&"");
-        let name = format!("Ryan {} W.", middle_name, last_name);
+        let name = format!("Ryan {} W.", middle_name);
 
         let endpoints = std::collections::HashMap::from([
             ("discord", ".xevion"),
